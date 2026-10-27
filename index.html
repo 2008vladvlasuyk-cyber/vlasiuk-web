@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Навчальний сайт туристичної агенції Мандри: напрями подорожей та інформація про автора Власюка Владислава, група 451, варіант 4.">
+  <title>Мандри — туристична агенція | Практична робота №1</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Базові стилі у style — як у кроці 3 методички. -->
+  <style>
+    body { font-family: Arial, sans-serif; color: #183d38; }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="Логотип туристичної агенції Мандри" width="56" height="56">
+        <div>
+          <p class="eyebrow">Туристична агенція «Мандри»</p>
+          <h1>Веб-технології: практикум</h1>
+        </div>
+      </div>
+      <nav aria-label="Головна навігація">
+        <a href="index.html" aria-current="page">Головна</a>
+        <a href="pages/about.html">Про мене та агенцію</a>
+        <a href="pages/contacts.html">Контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="travel-title">
+      <div>
+        <p class="eyebrow">Варіант 4 · Туристична агенція</p>
+        <h2 id="travel-title">Подорож починається з цікавості</h2>
+        <p>Від гірських маршрутів до міських вихідних — знайдіть ідею для наступної мандрівки.</p>
+        <div class="actions">
+          <a class="button" href="pages/about.html">Дізнатися про агенцію</a>
+          <a class="button secondary" href="pages/contacts.html">Зв’язатися</a>
+        </div>
+      </div>
+      <img src="assets/img/hero.webp" alt="Ілюстрація зелених гір і сонця над ними" width="1200" height="600">
+    </section>
+    <section class="card" aria-labelledby="student-title">
+      <h2 id="student-title">Інформація про виконавця</h2>
+      <p><b>ПІБ:</b> Власюк Владислав Федорович</p>
+      <p><b>Група:</b> 451 &nbsp; <b>Варіант:</b> 4</p>
+      <p><b>Предметна область:</b> Туристична агенція</p>
+      <p><b>Середовище для виконання:</b> Visual Studio Code + Live Server, Google Chrome DevTools, Git.</p>
+    </section>
+    <section aria-labelledby="destinations-title">
+      <h2 id="destinations-title">Ідеї для подорожі</h2>
+      <div class="grid">
+        <article><h3>Карпати</h3><p>Гірські стежки, свіже повітря та знайомство з місцевими традиціями.</p></article>
+        <article><h3>Міські вихідні</h3><p>Архітектура, музеї та нові маршрути знайомими містами.</p></article>
+        <article><h3>Морський відпочинок</h3><p>Ідеї спокійної подорожі для тих, хто любить воду та сонце.</p></article>
+      </div>
+      <p>Навчальний проєкт: описи демонстраційні, продаж і бронювання турів не здійснюються.</p>
+    </section>
+  </main>
+  <footer><div class="container">&copy; 2026 Київський авіаційний фаховий коледж. Власюк Владислав Федорович, група 451.</div></footer>
+</body>
+</html>
